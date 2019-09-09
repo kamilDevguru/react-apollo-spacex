@@ -1,0 +1,21 @@
+{
+  "name": "apollo-spacex",
+  "version": "1.0.0",
+  "description": "Spacex",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "serve": "nodemon server.js"
+  },
+  "author": "Dan Konus",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
